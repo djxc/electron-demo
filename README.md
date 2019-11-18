@@ -1,9 +1,9 @@
 #学习使用electron，构建桌面应用  	
 
-1.构建react+electron+antd框架  		
-	+使用create-react-app工具创建react项目  	
-	+安装electron，然后修改package.json,添加"estart" : "electron ."以及"main":"index.js"  	
-	+新建index.js、index.html文件，作为electron程序的主入口以及页面样式	  	
+##1.构建react+electron+antd框架   
+	+使用create-react-app工具创建react项目  
+	+安装electron，然后修改package.json,添加"estart" : "electron ."以及"main":"index.js"  
+	+新建index.js、index.html文件，作为electron程序的主入口以及页面样式  
 	+安装antd构建ui样式框架，需要启动react，然后在electron主入口处loadURL("http://localhost:3000"),将url的内容在electron页面中显示。  	
 
 
